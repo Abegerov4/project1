@@ -2,8 +2,8 @@ public class Main {
     public static void main(String[] args) {
         Bank bank = new Bank();
 
-        Customer customer1 = new Customer("Aldiyar", "Aldiyar@example.com");
-        Customer customer2 = new Customer("Ayadil", "Ayadil@example.com");
+        Customer customer1 = new Customer("Aldiyar", "Aldiyar@gmail.com");
+        Customer customer2 = new Customer("Ayadil", "Ayadil@gmail.com");
 
         Account account1 = new Procent("A001", customer1, 5000, 2.5);
         Account account2 = new Overdraft("A002", customer2, 1500, 500);
